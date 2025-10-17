@@ -1,0 +1,96 @@
+body {
+    background-image: url(https://images.pexels.com/photos/2449543/pexels-photo-2449543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+  }
+  .container {
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  .city {
+    padding-top: 8px;
+    text-align: center;
+  }
+  .city:hover {
+    cursor: pointer;
+  }
+  .temp-now {
+    font-size: 45px;
+    color: #1b335f;
+  }
+
+  .info {
+    padding-top: 32px;
+  }
+  ul,
+  li {
+    text-align: left;
+    font-size: 15px;
+    list-style: none;
+  }
+  tr,
+  td {
+    max-width: 70%;
+    padding: 10px;
+    text-align: center;
+  }
+  button {
+    margin-left: 10px;
+  }
+  .card {
+    text-align: center;
+    opacity: 0.9;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  h5 {
+    opacity: 0.8;
+  }
+  .row-cols-1 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .card-text {
+    font-weight: bolder;
+    line-height: 2;
+    font-size: 17px;
+  }
+  .card-temp {
+    line-height: 0.02;
+    font-size: 12px;
+  }
+  table {
+    margin-right: 70px;
+  }
+  #description {
+    text-transform: capitalize;
+    font-size: 15px;
+    margin-left: 20px;
+  }
+  .units {
+    position: relative;
+    font-size: 15px;
+    top: -16px;
+    left: -15px;
+  }
+  #cel,
+  #far {
+    text-decoration: none;
+    font-weight: 450;
+  }
+  .weather-forecast-temperature-min {
+    opacity: 0.5;
+  }
+  
+.weather-forecast-date {
+  font-size: 16px;
+  color: #1b335f;
+  max-width: 150%;
+}
+
+.weather-forecast-temperature {
+  font-size: 14px;
+}
+#main-city {
+  font-size: 25px;
+  color: #1b335f;
+}

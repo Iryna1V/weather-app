@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/662f197e7b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>WeatherApp</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="p-3 card shadow border">
+        <div class="p-4 rounded">
+          <div class="color">
+            <form class="search-form" id="search-form">
+              <div class="input-group">
+                <input
+                  type="search"
+                  class="form-control"
+                  w.50
+                  placeholder="Enter your city"
+                  id="city-input"
+                />
+                <span>
+                  <button
+                    type="button"
+                    class="btn btn-success"
+                    id="search-button"
+                    input
+                    type="submit"
+                    >
+                    Search
+                  </button></span
+                >
+                <span
+                  ><button
+                    type="button"
+                    class="btn btn-primary"
+                    id="current"
+                    input
+                    type="submit"
+                  >
+                    Current
+                  </button></span
+                >
+              </div>
+            </form>
+          </div>
+
+          <table>
+            <td>
+              <div class="row">
+                  <div class="clearfix weather-temperature">
+              <img src="http://ssl.gstatic.com/onebox/weather/64/sunny.png"
+              id="icon"
+              class= "float-left"/>
+           
+            <li id="description"></li>
+
+            <td class="temp-now" id="temperature"> 15</td>
+            <td class="units">
+              <a href="#" id="cel">°С</a> | <a href="#" id="far">°F</a>
+            </td>
+
+            <td class="info">
+              <ul>
+                <strong>
+                  <h1 id="city"></h1>
+                  <li id="main-city">Kyiv</li>
+                </strong>
+                <li id="date"></li>
+                <li id="humi">Humidity: 66%</li>
+                <li>Wind:  <span id="wind"> </span> km/h </li>
+              </ul>
+            </td>
+          </table>
+            <div class= "weather-forecast" id="forecast"> </div>
+            <script src="src/index.js"></script>
+          </div>
+        </div>
+    
+  </body>
+</html>
