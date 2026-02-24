@@ -2,6 +2,8 @@
 
 The Weather App is a JavaScript-based application that allows users to get weather information for a given location. 
 It utilizes a weather API to fetch real-time weather data and provides a user-friendly interface to display the weather information.
+<img width="2175" height="1471" alt="Rectangle (8)" src="https://github.com/user-attachments/assets/b110bd02-fd8c-479e-9182-a541ea049971" />
+
 
 ## Functionalities:
 
